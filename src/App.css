@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+/* --------------------- NAVIGATION BAR ------------------------------------------ */
+
+.signupbtn{
+  background-color: #26CECF;
+  color: white;
+}
+
+.buttonclass{
+  color: #10c0c0;
+}
+
+.logoclass{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.valbtn{
+  font-weight: 500;
+}
+
+
+/* --------------------- HOME PAGE ------------------------------------------ */
+
+.heroh1{
+  font-size: 70px;
+  font-weight: 700;
+  /* word-spacing: 5px; */
+}
+
+.herospan{
+  color: #10c0c0;
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+.herobtn{
+  background-color: #10c0c0;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-weight: 500;
+  border-color: white;
+
+}
+
+.heroimage{
+  height: 380px;
+
+}
+
+
+/* --------------------- INPUT BOX ------------------------------------------ */
+
+
+.inputcage{
+  padding: 20px;
+  background-color: #4B406B;
+  margin-top: 60px;
+}
+
+.inputbox{
+  width: 900px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.inputbtn{
+  background-color: #10c0c0;
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  border-color: white;
+}
+
+
+
+
+.statscontainer{
+  background-color: #F0F1F6;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+}
+
+.statsh1{
+  font-weight: bold;
+}
+
+.statspan{
+  color: #10c0c0;
+}
+
+.card-text{
+  color: #10c0c0;
+  font-size: 12px;
+}
+
+.statboximg{
+  background-color: blue;
+  height: 62px;
+  width: 62px;
+  border-radius: 30px;
+}
+
+.statboximg img{
+  margin-left: 10px;
+  height: 40px;
+}
