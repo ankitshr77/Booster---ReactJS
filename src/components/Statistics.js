@@ -1,8 +1,8 @@
 import React from 'react'
 import Statsbox from './Statsbox'
 import brandicon from '../assets/brandicon.svg'
-import recordsicon from '../assets/brandicon.svg'
-import customicon from '../assets/brandicon.svg'
+import recordsicon from '../assets/recordsicon.svg'
+import customicon from '../assets/customicon.svg'
 
 const Statistics = () => {
   return (

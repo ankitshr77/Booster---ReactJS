@@ -1,12 +1,11 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Golos Text', sans-serif;
   font-weight: 500;
 }
 
@@ -67,12 +66,14 @@
   padding: 20px;
   background-color: #4B406B;
   margin-top: 60px;
+  border-radius: 10px;
 }
 
 .inputbox{
-  width: 900px;
+  width: 930px;
   height: 50px;
   border-radius: 10px;
+  border: none;
 }
 
 .inputbtn{
@@ -85,6 +86,7 @@
   border-color: white;
 }
 
+/* --------------------- STATISTICS BOX ------------------------------------------ */
 
 
 
@@ -92,6 +94,7 @@
   background-color: #F0F1F6;
   padding-top: 100px;
   padding-bottom: 100px;
+
   
 }
 
@@ -109,13 +112,85 @@
 }
 
 .statboximg{
-  background-color: blue;
-  height: 62px;
+  background-color: #3C3054;
+  height: 60px;
   width: 62px;
   border-radius: 30px;
 }
 
 .statboximg img{
   margin-left: 10px;
-  height: 40px;
+  height: 36px;
+  margin-top: 10px;
+  margin-left: 13px;
+}
+
+
+/* --------------------- SUB FOOTER BOX ------------------------------------------ */
+
+.subfootercage{
+  background-color: #4B406B;
+  padding: 80px 0;
+  color: white;
+}
+
+.subfbtn{
+  background-color: #10c0c0;
+  border-radius: 20px;
+  padding: 10px 35px;
+  font-weight: 500;
+  border: none;
+  color: white;
+}
+
+.subfbtn:hover{
+  background-color: rgb(74, 74, 180);
+}
+
+/* --------------------- FOOTER BOX ------------------------------------------ */
+
+.footerbox{
+  background-color: rgb(24, 23, 23);
+  padding: 70px 0 ;
+}
+
+.footerlogo{
+  margin-left: 120px;
+  margin-top: 5px;
+}
+
+.footerftrs a{
+  text-decoration: none;
+  color: rgb(171, 151, 151);
+}
+
+.footerftrs1{
+  margin-left: 150px;
+}
+
+.sicon{
+  font-size: 25px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.sicon:hover{
+  transform: translateY(2px);
+}
+
+
+.footeroptions:hover{
+  color: white;
+}
+
+.fa-copyright{
+  font-size: 20px;
+}
+
+.fa-copyrighttext{
+  display: inline-block;
+}
+
+.copyfooter{
+  background-color: #4B406B;
 }

@@ -1,11 +1,15 @@
 import React from 'react'
 import hero1 from '../assets/hero1.svg'
+import Footer from './Footer'
 import Inputbox from './Inputbox'
 import Statistics from './Statistics'
 
 const Home = () => {
   return (
     <>
+
+    {/* ----------------------------HERO SECTION --------------------------------- */}
+
     <div className='container'>
 
       <div className='row'>
@@ -21,13 +25,33 @@ const Home = () => {
         </div>
       </div>
 
+
+      {/* ----------------------------INPUT SECTION --------------------------------- */}
+
       <Inputbox/>
 
     </div>
 
-    <Statistics/>
-    </>
+    {/* ----------------------------STATISTICS SECTION -------------------------------- */}
 
+    <Statistics/>
+
+    
+{/* ----------------------------SUB FOOTER SECTION -------------------------------- */}
+
+    <div className='container-fluid subfootercage text-center'>
+      <h1>Boost Your Links Today</h1>
+      <button className='subfbtn mt-2'>Get Started</button>
+    </div>
+    
+    <Footer/>
+
+    <div className="container-fluid text-center p-3 copyfooter">
+    <i class="fas fa-copyright me-2 text-white"></i> 
+    <h6 className='fa-copyrighttext text-white mt-2'>Website Crafted by Ankit Shrestha</h6>
+    </div>
+
+    </>
     
   )
 }
