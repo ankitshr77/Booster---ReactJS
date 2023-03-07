@@ -7,6 +7,8 @@
   box-sizing: border-box;
   font-family: 'Golos Text', sans-serif;
   font-weight: 500;
+  /* border: solid; */
+  /* width: 100%; */
 }
 
 /* --------------------- NAVIGATION BAR ------------------------------------------ */
@@ -94,8 +96,11 @@
   background-color: #F0F1F6;
   padding-top: 100px;
   padding-bottom: 100px;
-
   
+}
+
+.statsoptionsbox{
+  margin-left: 60px;
 }
 
 .statsh1{
@@ -154,8 +159,12 @@
   padding: 70px 0 ;
 }
 
+.footerrow{
+  width: 100%;
+}
+
 .footerlogo{
-  margin-left: 120px;
+  margin-left: 80px;
   margin-top: 5px;
 }
 
@@ -165,7 +174,11 @@
 }
 
 .footerftrs1{
-  margin-left: 150px;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+.footerftrs2{
+  margin-right: 40px;
 }
 
 .sicon{
@@ -194,3 +207,7 @@
 .copyfooter{
   background-color: #4B406B;
 }
+
+/* .siconcage{
+  background-color: red;
+} */

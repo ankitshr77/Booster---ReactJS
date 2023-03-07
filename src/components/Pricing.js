@@ -2,8 +2,8 @@ import React from 'react'
 
 const Pricing = () => {
   return (
-    <div>
-      PRICING
+    <div className='container'>
+      <h2>PRICING PAGE UNDER MAINTENANCE...</h2>
     </div>
   )
 }

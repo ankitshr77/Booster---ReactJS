@@ -1,0 +1,149 @@
+
+@media screen and (max-width:820px) {
+    .heroimage{
+        height: 230px;
+    }
+
+    .heroh1{
+        font-size: 40px;
+    }
+
+    .inputbox{
+        width: 500px;
+    }
+
+    .herospan{
+        font-size: 15px;
+    }
+    
+    .stath5{
+        font-size: 16px;
+    }
+
+    .statspan{
+        font-size: 10px;
+    }
+
+    .statscontainer{
+        padding: 50px 0;
+    }
+
+    .statsoptionsbox{
+        margin-left: 20px;
+      }
+
+    /* .indivstatbox{
+        height: 100px;
+    } */
+
+    .footerbox{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        
+      }
+
+    .footerlogo{
+        margin-left: 45px;
+        /* margin-top: 2px; */
+      }
+
+    .sicon{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 15px;
+      }
+
+    .footerftrs1{
+        margin-left: 11px;
+      }
+
+    /* .footerftrs{
+        margin: 0px 20px;
+    } */
+
+    .footerftrs a{
+        font-size: 13px;
+      }
+
+    .footerftrs2{
+        margin: 0 30px;
+    }
+}
+
+/* ------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 380px) {
+    .inputbox{
+        width: 260px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+      }
+
+      .heroh1{
+        font-size: 30px;
+        margin-top: -50px;
+    }
+
+      .inputbtn{
+        padding: 10px 80px;
+        
+      }
+
+      .heroimage{
+        height: 200px;
+    }
+
+    .statindi{
+        margin-right: 50px;
+    }
+
+    .footerlogo{
+        margin-top: 5px;
+        margin-bottom: 40px;
+        margin-left: -1px;
+      }
+
+      .footerbox{
+        text-align: center;
+      }
+
+      .footerftrs{
+        margin-left: 4px;
+        margin-bottom: 20px;
+      }
+
+      .statindi{
+        margin-left: -10px;
+      }
+
+      .statsoptionsbox{
+        margin-left: 0px;
+      }
+
+      .inputcage{
+        width: 300px;
+        margin-left: 5px;
+      }
+
+      .herobtn{
+        margin-bottom: 20px;
+      
+      }
+
+      .subfootercage{
+        margin-left: 0px;
+      }
+
+      .sicon{
+        margin: 0px 8px;
+      }
+
+      .hhh{
+        font-size: 10px;
+      }
+
+      .statsh1{
+        font-size: 20px;
+      }
+}

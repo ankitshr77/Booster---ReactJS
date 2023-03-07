@@ -25,8 +25,8 @@ const Navbar = () => {
         
       </ul>
       <form className="d-flex" role="search">
-        <button className="btn mx-2 font-weight-bold buttonclass valbtn" type="submit">Log In</button>
-        <button className="btn mx-2 signupbtn font-weight-bold valbtn" type="submit">Sign Up</button>
+        <Link to="/login"><button className="btn mx-2 font-weight-bold buttonclass valbtn" type="submit" >Log In</button></Link>
+        <Link to="/register"><button className="btn mx-2 signupbtn font-weight-bold valbtn" type="submit" >Sign Up</button></Link>
       </form>
     </div>
   </div>

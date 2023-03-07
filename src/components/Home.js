@@ -13,14 +13,14 @@ const Home = () => {
     <div className='container'>
 
       <div className='row'>
-        <div className='col-md-6 mt-5'>
+        <div className='col-md-6 col-sm-12 mt-5'>
           <h1 className='text-left heroh1'>More Than Just <br/> Shorter Links</h1>
-          <span className='herospan'>Build your brand's recognition and get detailed<br/> insights on how your links are performing.</span>
+          <span className='herospan'>Build your brand's recognition and get detailed insights on how your links are performing.</span>
           <br />
           <button className='btn btn-primary mt-4 herobtn'>Get Started</button>
         </div> 
 
-        <div className='col-md-6'>
+        <div className='col-md-6 col-sm-12'>
         <img src={hero1} className="heroimage" alt="Your SVG" />
         </div>
       </div>
@@ -41,14 +41,14 @@ const Home = () => {
 
     <div className='container-fluid subfootercage text-center'>
       <h1>Boost Your Links Today</h1>
-      <button className='subfbtn mt-2'>Get Started</button>
+      <button className='subfbtn mt-4'>Get Started</button>
     </div>
     
     <Footer/>
 
     <div className="container-fluid text-center p-3 copyfooter">
-    <i class="fas fa-copyright me-2 text-white"></i> 
-    <h6 className='fa-copyrighttext text-white mt-2'>Website Crafted by Ankit Shrestha</h6>
+    <i class="fas fa-copyright me-2 text-white hhh "></i> 
+    <h6 className='fa-copyrighttext text-white mt-2 hhh'>Website Crafted by Ankit Shrestha</h6>
     </div>
 
     </>
